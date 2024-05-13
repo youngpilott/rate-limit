@@ -31,7 +31,7 @@ The sliding window rate limiter algorithm allows a fixed number of requests to b
 from rate_limiter import RateLimiter
 
 limiter = RateLimiter(redis_host='localhost', redis_port=6379, window_size=60, max_requests=10)
-if limiter.is_allowed('user1')[0]:
+if limiter.is_allowed('rate-limiter-1')[0]:
     print("Request allowed")
 else:
     print("Request denied")
