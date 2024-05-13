@@ -17,7 +17,8 @@ The sliding window rate limiter algorithm allows a fixed number of requests to b
 
 
 2. Install the required dependencies:
-   ```$pip install -r requirements.txt
+   ```
+   $pip install -r requirements.txt
 
 
 ## Usage
